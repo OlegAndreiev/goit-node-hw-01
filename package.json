@@ -1,0 +1,30 @@
+{
+  "name": "goit-node-hw-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlegAndreiev/goit-node-hw-01.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OlegAndreiev/goit-node-hw-01/issues"
+  },
+  "homepage": "https://github.com/OlegAndreiev/goit-node-hw-01#readme",
+  "dependencies": {
+    "ts-node": "^10.9.1",
+    "yarn": "^1.22.19"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
