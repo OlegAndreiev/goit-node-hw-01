@@ -22,6 +22,7 @@
   "homepage": "https://github.com/OlegAndreiev/goit-node-hw-01#readme",
   "dependencies": {
     "ts-node": "^10.9.1",
+    "yargs": "^17.7.0",
     "yarn": "^1.22.19"
   },
   "devDependencies": {
