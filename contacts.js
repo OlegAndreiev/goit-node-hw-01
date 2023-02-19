@@ -1,7 +1,5 @@
 const fs = require("fs/promises");
 const path = require("path");
-const { string } = require("yargs");
-
 const contactsPath = path.join(__dirname, "db", "contacts.json");
 
 const listContacts = async () => {
@@ -18,10 +16,10 @@ const getContactById = async (id) => {
 
 const addContact = async (data) => {
   const contacts = await listContacts();
-  const newContactId = Number(contacts[contacts.length - 1].id) + 1;
+  const newContactId = String(Number(contacts[contacts.length - 1].id) + 1);
   console.log(newContactId);
   const newContact = {
-    id: String(newContactId),
+    id: newContactId,
     ...data,
   };
   contacts.push(newContact);
